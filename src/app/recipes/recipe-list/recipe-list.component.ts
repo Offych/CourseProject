@@ -10,6 +10,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A test Recipe', 'This is a test', 
+    "https://www.skinnytaste.com/wp-content/uploads/2009/02/turkey-meatloaf-8.jpg"),
+    new Recipe('A test Recipe', 'This is a test', 
     "https://www.skinnytaste.com/wp-content/uploads/2009/02/turkey-meatloaf-8.jpg")
   ];
 
